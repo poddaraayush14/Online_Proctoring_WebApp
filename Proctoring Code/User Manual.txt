@@ -1,0 +1,23 @@
+****User Manual****
+
+Instructions to use the app :-
+Step 1) Download all files in this folder and store them in a directory.
+Step 2) Install Anaconda 3 and Python 3.6 on your system.
+Step 3) Open the Prompt and install opencv-python, random, csv, numpy, scipy, dlib, DateTime and face-recognition. The commands for the same can be found by searching for installation of package in Anaconda. 
+Note: * If you face problems while installing dlib search over Youtube, StackOverflow and try installing it from GitHub directly (https://github.com/davisking/dlib). 
+* This Youtube video can be used also https://www.youtube.com/watch?v=pHrgi8QLcKk
+* https://learnopencv.com/install-dlib-on-windows/
+
+Step 4) In the directory add the images as "#their_roll.jpg" in the folder "Images Directory".
+Step 5) Search for Jupyter in the search bar of Windows. Open Jupyter Notebook.
+Step 4) Browse to the directory.
+Step 6) Open the .ipynb file and update the address in line 49. Run the cell. Input the roll number.
+Note: *It gives an approx frame rate of 1fps. But it is adequate enough for our purposes. Since calculations show that to read or see anything atleast 2s are needed.
+Step 7) Press Q to end the program. Make sure that the display window of webcam is selected.
+Step 8) In the directory you will see a CSV and screenshots have been maintained.
+
+Improvements Possible:-
+1) Backend development of software that enables it to be implemented with Moodle.The frontend that is the proctoring software is fairly complete in our opinion.
+
+
+****You may also use the .py file with any text editor like VsCode.
